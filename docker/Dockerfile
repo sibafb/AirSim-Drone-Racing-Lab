@@ -32,6 +32,6 @@ RUN sudo chown -R airsim_user /home/airsim_user
 
 RUN git clone https://github.com/microsoft/AirSim-Drone-Racing-Lab && \
 	cd AirSim-Drone-Racing-Lab && \
-	bash download_binaries.sh && \
+	bash download_linux_binaries.sh && \
 	mv ADRL/ ../ && \
 	cd ../
